@@ -7,15 +7,7 @@ import { getFirestore, collection, getDocs } from "firebase/firestore/lite";
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyBIe82DKRxWqdlYy8KMb-qsAV_VCsNnAeE",
-  authDomain: "vanlife-63314.firebaseapp.com",
-  projectId: "vanlife-63314",
-  storageBucket: "vanlife-63314.firebasestorage.app",
-  messagingSenderId: "1056080917504",
-  appId: "1:1056080917504:web:96e76d62cce799a5aa14e5",
-  measurementId: "G-9W1HJLGXJP"
-};
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
